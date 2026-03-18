@@ -5,11 +5,6 @@ A Prolog-based logic engine designed to automate and verify Relational Database 
 ## 🚀 Overview
 Building on the logic patterns used in our **Wumpus World** project, the `dbdtool` library provides a robust environment for students to practice database normalization. It automates complex mathematical tasks such as finding Minimal Covers and performing BCNF decompositions.
 
-## 📦 Repository Contents
-- `dbdtool.qlf`: The pre-compiled binary library (Quick Load File) for high-performance execution.
-- `docs/`: Detailed documentation of all predicates and logic flow.
-- `examples/`: Sample test cases for BCNF and 3NF analysis.
-
 ## 🛠 Installation & Setup
 1. **Prerequisites**: Ensure [SWI-Prolog](https://www.swi-prolog.org/) is installed on your system (Windows/macOS/Linux).
 2. **Download**: Clone this repository or download the `dbdtool.qlf` file.
@@ -21,7 +16,7 @@ To begin practicing, create a new Prolog file (e.g., `exercise.pl`) in the same 
 ```prolog
 :- [dbdtool].
 
-% Example: Checking the Highest Normal Form
+% Example: Checking the Normal Form
 run_test :-
     R = [a, b, c],
     F = [ [[a], [b]], [[b], [c]] ],
