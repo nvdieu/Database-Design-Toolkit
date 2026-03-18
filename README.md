@@ -17,9 +17,10 @@ To begin practicing, create a new Prolog file (e.g., `exercise.pl`) in the same 
 :- [dbdtool].
 
 % Example: Checking the Normal Form
-run_test :-
+test :-
     R = [a, b, c],
-    F = [ [[a], [b]], [[b], [c]] ],
-    normalF(R, F).
-
-:- initialization(run_test).
+    F = [ [[a], [b]], [[b], [c]] ],  
+    normalF(R, F, NF),
+    format('Normal Form: ~w~n', [NF]),
+    !.
+:- initialization(test).
