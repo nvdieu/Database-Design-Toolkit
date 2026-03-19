@@ -14,7 +14,7 @@ Building on the logic patterns used in our **Wumpus World** project, the `dbdtoo
 To begin practicing, create a new Prolog file (e.g., `exercise.pl`) in the same directory and load the library:
 
 ```prolog
-:- [dbdtool].
+:- use_module(dbdtool).
 
 % Example: Checking the Normal Form
 test :-
