@@ -9,18 +9,3 @@ The `dbdtool` library provides a robust environment for students to practice dat
 1. **Prerequisites**: Ensure [SWI-Prolog](https://www.swi-prolog.org/) is installed on your system (Windows/macOS/Linux).
 2. **Download**: Clone this repository or download the `dbdtool.qlf` file.
 3. **Environment**: We recommend using **VS Code** with the *Prolog* extension for the best experience.
-
-## 📖 Quick Start
-To begin practicing, create a new Prolog file (e.g., `exercise.pl`) in the same directory and load the library:
-
-```prolog
-:- use_module(dbdtool).
-
-% Example: Checking the Normal Form
-test :-
-    R = [a, b, c],
-    F = [ [[a], [b]], [[b], [c]] ],  
-    normalF(R, F, NF),
-    format('Normal Form: ~w~n', [NF]),
-    !.
-:- initialization(test).
