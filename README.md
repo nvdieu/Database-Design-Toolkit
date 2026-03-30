@@ -3,7 +3,7 @@
 A Prolog-based logic engine designed to automate and verify Relational Database Design processes, including Functional Dependency analysis, Key discovery, and Normalization.
 
 ## 🚀 Overview
-Building on the logic patterns used in our **Wumpus World** project, the `dbdtool` library provides a robust environment for students to practice database normalization. It automates complex mathematical tasks such as finding Minimal Covers and performing BCNF decompositions.
+The `dbdtool` library provides a robust environment for students to practice database normalization. It automates complex mathematical tasks such as finding Minimal Covers and performing BCNF decompositions.
 
 ## 🛠 Installation & Setup
 1. **Prerequisites**: Ensure [SWI-Prolog](https://www.swi-prolog.org/) is installed on your system (Windows/macOS/Linux).
